@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header gallery-page">
+        <nav class="navbar">
+            <a href="index.html" class="brand">Visita de Estudo</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="sobre.html">Sobre</a>
+            </div>
+        </nav>
+
+        <section class="gallery-section">
+            <h1>Galeria</h1>
+            <p>Momentos capturados durante a nossa visita de estudo.</p>
+
+            <div class="gallery-grid galeria"></div>
+        </section>
+    </header>
+    <div id="modal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Fechar">×</button>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+    <script src="conteudos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
